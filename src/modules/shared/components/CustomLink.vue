@@ -6,12 +6,11 @@
 
     <router-link
         v-else
-        :to="link.to"
-        v-slot="{ href, isActive }"
+        :to="{ name: link.to, params: { id: link.id } }"
+        v-slot="{ isActive }"
     >
-        <a :href="href"
-           :class="isActive ? 'is-active' : 'normal-link'"
-        >
+        <!-- href, isActive -->
+        <a :class="isActive ? 'is-active' : 'normal-link'">
             {{ link.name }}
         </a>
     </router-link>
