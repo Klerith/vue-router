@@ -23,7 +23,7 @@ export default {
                 { to: 'pokemon-id', name: 'Por ID', id: 151 },
                 { to: 'pokemon-about', name: 'About' },
                 
-                { to: 'dbz-charactes', name: 'Personajes' },
+                { to: 'dbz-characters', name: 'Personajes' },
                 { to: 'dbz-about', name: 'DBZ-About' },
 
                 { to: 'https://google.com', name: 'Google' },
